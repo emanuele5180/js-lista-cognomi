@@ -8,3 +8,7 @@ var lista = ["Pippo", "Topolino", "Paperino","Gastone"];
 
 lista.push(cognome);
 console.log(lista);
+
+lista.sort()
+
+console.log(lista);
