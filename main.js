@@ -7,8 +7,20 @@ var cognome = prompt( "aggiungi il cognome");
 var lista = ["Pippo", "Topolino", "Paperino","Gastone"];
 
 lista.push(cognome);
+//console.log(lista);
+
+lista.sort();
+
 console.log(lista);
 
-lista.sort()
+for (var i = 0; i < lista.length; i++) {
+  console.log(lista[i]);
 
-console.log(lista);
+
+  if (lista [i]== cognome) {
+    console.log( cognome + "" + "il cognome è nella posizione" + "" + (i+1));
+
+  }
+
+
+}
